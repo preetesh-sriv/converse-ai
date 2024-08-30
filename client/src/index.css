@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0e0c16;
+    color: #ececec;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* Custom Scrollbar for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the entire scrollbar */
+    height: 12px; /* Height of the horizontal scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+    background: #2c2937; /* Background color of the track */
+    border-radius: 10px; /* Rounding the corners of the track */
+}
+
+/* Handle (draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+    background-color: #605e68; /* Color of the handle */
+    border-radius: 10px; /* Rounding the corners of the handle */
+    border: 3px solid #2c2937; /* Creates padding around the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #8a8892; /* Color of the handle when hovered */
+}
+
+/* Scrollbar Corner (when both vertical and horizontal scrollbars are visible) */
+::-webkit-scrollbar-corner {
+    background-color: #2c2937; /* Color of the scrollbar corner */
+}
+
+/* Horizontal scrollbar */
+::-webkit-scrollbar-horizontal {
+    height: 8px; /* Height of the horizontal scrollbar */
+}
+
+/* Vertical scrollbar */
+::-webkit-scrollbar-vertical {
+    width: 8px; /* Width of the vertical scrollbar */
+}
+
+/* Horizontal scrollbar track */
+::-webkit-scrollbar-track-horizontal {
+    background: #2c2937; /* Background color of the horizontal scrollbar track */
+}
+
+/* Vertical scrollbar track */
+::-webkit-scrollbar-track-vertical {
+    background: #2c2937; /* Background color of the vertical scrollbar track */
+}
